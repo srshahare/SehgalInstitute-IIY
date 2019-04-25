@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">884074252260-sv7fd3f16ss3svgu0bb6babbvpg5fugq.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://sehgal-71e11.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">884074252260</string>
+    <string name="google_api_key" translatable="false">AIzaSyD4NP7g-Uqz2oEh5bqMxQqXYXA8MOc6Be8</string>
+    <string name="google_app_id" translatable="false">1:884074252260:android:b90e64bdfcd589e0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD4NP7g-Uqz2oEh5bqMxQqXYXA8MOc6Be8</string>
+    <string name="google_storage_bucket" translatable="false">sehgal-71e11.appspot.com</string>
+    <string name="project_id" translatable="false">sehgal-71e11</string>
+</resources>

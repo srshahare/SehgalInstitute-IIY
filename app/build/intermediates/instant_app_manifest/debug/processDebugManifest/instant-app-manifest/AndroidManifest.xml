@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.instituteapp"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Sehgal Institute"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.instituteapp.AllStudentAtt" />
+        <activity android:name="com.example.instituteapp.Listofattendence" />
+        <activity android:name="com.example.instituteapp.allAttendenceList" />
+        <activity
+            android:name="com.example.instituteapp.contactus"
+            android:label="@string/title_activity_contactus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.instituteapp.studentpaymrntinfo"
+            android:label="@string/title_activity_studentpaymrntinfo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.instituteapp.fetchcsmadmin"
+            android:label="@string/title_activity_fetchcsmadmin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.instituteapp.fetchallStudents"
+            android:label="@string/title_activity_fetchall_students"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.instituteapp.fullimageactivity" />
+        <activity
+            android:name="com.example.instituteapp.gallerylayout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.instituteapp.pteact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.instituteapp.cdielts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.instituteapp.spknenglish"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.instituteapp.ieltsact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.instituteapp.aboutusact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.instituteapp.ReadRequest"
+            android:label="@string/title_activity_read_request"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.instituteapp.request"
+            android:label="@string/title_activity_request"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.instituteapp.fetchNotes"
+            android:label="@string/title_activity_fetch_notes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.instituteapp.PremiumActivity"
+            android:label="@string/title_activity_premium"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.instituteapp.attendanceMan"
+            android:label="@string/title_activity_attendance_man"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.instituteapp.payment"
+            android:label="@string/title_activity_payment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.instituteapp.deleteStudent"
+            android:label="@string/title_activity_delete_student"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.instituteapp.addStudent"
+            android:label="@string/title_activity_add_student"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.instituteapp.manage" />
+        <activity android:name="com.example.instituteapp.studentlogin" />
+        <activity android:name="com.example.instituteapp.twobutton" />
+        <activity android:name="com.example.instituteapp.MainActivity" />
+        <activity
+            android:name="com.example.instituteapp.mainlayout"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.instituteapp.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

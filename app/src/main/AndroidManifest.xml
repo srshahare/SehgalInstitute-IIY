@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.instituteapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Sehgal Institute"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AllStudentAtt"></activity>
+        <activity android:name=".Listofattendence" />
+        <activity android:name=".allAttendenceList" />
+        <activity
+            android:name=".contactus"
+            android:label="@string/title_activity_contactus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".studentpaymrntinfo"
+            android:label="@string/title_activity_studentpaymrntinfo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fetchcsmadmin"
+            android:label="@string/title_activity_fetchcsmadmin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fetchallStudents"
+            android:label="@string/title_activity_fetchall_students"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".fullimageactivity" />
+        <activity
+            android:name=".gallerylayout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pteact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cdielts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".spknenglish"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ieltsact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".aboutusact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ReadRequest"
+            android:label="@string/title_activity_read_request"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".request"
+            android:label="@string/title_activity_request"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fetchNotes"
+            android:label="@string/title_activity_fetch_notes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PremiumActivity"
+            android:label="@string/title_activity_premium"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".attendanceMan"
+            android:label="@string/title_activity_attendance_man"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".payment"
+            android:label="@string/title_activity_payment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".deleteStudent"
+            android:label="@string/title_activity_delete_student"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".addStudent"
+            android:label="@string/title_activity_add_student"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".manage" />
+        <activity android:name=".studentlogin" />
+        <activity android:name=".twobutton" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".mainlayout"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

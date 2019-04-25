@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_aboutus"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_contactus"
+            android:title="Contact Us" />
+
+
+        <item android:title="Subjects">
+            <menu>
+                <item
+                    android:id="@+id/nav_ielts"
+                    android:title="IELTS" />
+                <item
+                    android:id="@+id/nav_pte"
+                    android:title="PTE" />
+                <item
+                    android:id="@+id/nav_cdielts"
+                    android:title="Celpip" />
+                <item
+                    android:id="@+id/spkn_eng"
+                    android:title="Spoken English" />
+
+            </menu>
+        </item>
+        <item android:title="Options">
+            <menu>
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/ic_login"
+                    android:title="Log In" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_login"
+                    android:title="Log Out" />
+                <item
+                    android:id="@+id/nav_payment"
+                    android:icon="@drawable/ic_payment"
+                    android:title="Payment Info" />
+                <item
+                    android:id="@+id/nav_premium"
+                    android:icon="@android:drawable/btn_star_big_on"
+                    android:title="Premium Content" />
+                <item
+                    android:id="@+id/nav_manage"
+                    android:checkable="false"
+                    android:enabled="true"
+                    android:icon="@drawable/admins"
+                    android:title="Admin"
+                    android:visible="true" />
+                <item
+                    android:id="@+id/nav_request"
+                    android:icon="@android:drawable/btn_star_big_on"
+                    android:title="Requests" />
+
+            </menu>
+        </item>
+
+    </group>
+
+</menu>

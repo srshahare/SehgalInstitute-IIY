@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "884074252260",
+    "firebase_url": "https://sehgal-71e11.firebaseio.com",
+    "project_id": "sehgal-71e11",
+    "storage_bucket": "sehgal-71e11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884074252260:android:b90e64bdfcd589e0",
+        "android_client_info": {
+          "package_name": "com.example.instituteapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884074252260-rf9cpaj225ltsapumnmdjotehk6ab3lm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.instituteapp",
+            "certificate_hash": "d50fdd6b57982c7bd7504ebeea69a1aef1877f54"
+          }
+        },
+        {
+          "client_id": "884074252260-sv7fd3f16ss3svgu0bb6babbvpg5fugq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4NP7g-Uqz2oEh5bqMxQqXYXA8MOc6Be8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884074252260-sv7fd3f16ss3svgu0bb6babbvpg5fugq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

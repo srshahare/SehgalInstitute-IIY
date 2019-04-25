@@ -1,0 +1,225 @@
+<resources>
+    <string name="app_name">instituteapp</string>
+    <string name="navigation_drawer_open">open Navigation drawer</string>
+    <string name="navigation_drawer_close">Close Navigation drawer</string>
+    <string name="title_activity_add_student">addStudent</string>
+    <string name="title_activity_delete_student">deleteStudent</string>
+    <string name="title_activity_payment">payment</string>
+    <string name="title_activity_attendance">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_attendance_manager">Attendance</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_attendance_man">attendanceMan</string>
+    <string name="title_activity_premium">PremiumActivity</string>
+    <string name="title_activity_fetch_notes">fetchNotes</string>
+    <string name="title_activity_request">request</string>
+    <string name="title_activity_read_request">ReadRequest</string>
+    <string name="about_us_text">
+        At Sehgal Institute, we offer the best academic preparation that steadily builds concepts from the intermediate to advanced levels.
+        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly believable.
+    </string>
+    <string name="wlcm_seghal_text">
+        Sehgal Institute is the one stop solution for all your IELTS, PTE, Spoken English preparation. It has positively affected the career outcomes of innumerable aspirants and our ongoing relationship with our students has been a gratifying story of unparalleled success.
+
+    </string>
+    <string name="ielts_text">
+        When you apply to study abroad for a programme taught in English, you may need to complete a language proficiency test to prove your English is of an acceptable standard.
+        Whilst different universities may require you to meet specific entrance requirements, your International English Language Testing System (IELTS) test score will be commonly accepted at institutions in the UK, USA, Australia, New Zealand, Hong Kong and Ireland.For almost 30 years, IELTS (The International English Language Testing System) has been a paper-based English test that people like you have used to achieve their work, study and migration dreams. You have had the choice of 50 test locations, 48 test days per year, for both, the Academic and General Training test formats.
+    </string>
+    <string name="diff_format_text">
+        General Training is for individuals who want to acquire Permanent residence (Australia, Canada New Zealand, UK) and for work permit.\n</string>
+    <string name="spkn_eng_text">
+A spoken language is a language produced by articulate sounds, as opposed to a written language. Many languages have no written form and so are only spoken. An oral language or vocal language is a language produced with the vocal tract, as opposed to a sign language, which is produced with the hands and face. The term spoken language is sometimes used to mean only vocal languages, especially by linguists, making all three terms synonyms by excluding sign languages. Others refer to sign language as spoken, especially in contrast to written transcriptions of signs.\n\n
+
+In spoken language, much of the meaning is determined by the context. That contrasts with written language in which more of the meaning is provided directly by the text. In spoken language, the truth of a proposition is determined by common-sense reference to experience, but in written language, a greater emphasis is placed on logical and coherent argument. Similarly, spoken language tends to convey subjective information, including the relationship between the speaker and the audience, whereas written language tends to convey objective information.\n\n
+
+The relationship between spoken language and written language is complex. Within the field of linguistics the current consensus is that speech is an innate human capability, and written language is a cultural invention. However some linguists, such as those of the Prague school, argue that written and spoken language possess distinct qualities which would argue against written language being dependent on spoken language for its existence.</string>
+
+    <string name="acad_text">
+The IELTS Academic training is for candidates applying for higher learning or professional registration in an English speaking environment.</string>
+    <string name="cd_ielts_text">Computer-Delivered International English Language Testing System</string>
+    <string name="cel_pip_text">The Canadian English Language Proficiency Index Program (CELPIP) is an English language proficiency test  accepted by a number of governments, professional organizations, universities, colleges, and employers as proof of English language proficiency.
+
+The test provides a valid and reliable measurement of a test taker English abilities in a variety of everyday situations, such as communicating with co-workers and superiors in the workplace, interacting with friends, understanding newscasts, and interpreting and responding to written materials.
+
+There are two versions of the CELPIP Test: the CELPIP-General Test and the CELPIP-General LS Test. The CELPIP-General Test assesses functional Listening, Reading, Writing, and Speaking skills, and is accepted by Immigration, Refugees and Citizenship Canada (IRCC) as proof of English language proficiency for permanent residency in Canada. Other organizations that accept the CELPIP-General Test include the Real Estate Council of British Columbia (RECBC) and Immigration Consultants of Canada Regulatory Council (ICCRC). The CELPIP-General LS Test assesses functional Listening and Speaking proficiency, and is accepted by IRCC as proof of English language proficiency for Canadian citizenship.
+
+</string>
+    <string name="pte_text">Pearson Language Tests is a unit of the Pearson PLC group, dedicated to assessing and validating the English language usage of non-native English speakers. When it comes to meeting your future goals for study or work abroad, choosing PTE Academic is the wisest move.The tests include PTE Academic, PTE General (formerly known as London Tests of English), and PTE Young Learners. These are scenario-based exams, accredited by the QCA , Ofqual, and administered in association with Edexcel, the world largest examining body.Unlike other English language proficiency tests, PTE Academic consists of a single 3-hour test session which includes three sections: speaking and writing (together), listening and reading. There are twenty different question formats, ranging from multiple choice through to essay writing and interpreting information.Maximize your chances to succeed with the PTE mock test. The practice tests familiarise the test takers to the exam format, also giving an indication of the expected actual PTE result, so the test takers can better focus on their weaknesses to further improve on them.
+
+That is not all, test takers can also avail the range of official PTE books that provides a  comprehensive information about the test, over 200 practice tasks on CD-ROM, analysis of sample answers, test-taking tips and more to help test takers get the best possible PTE result. </string>
+    <string name="about_u_text">At Sehgal Institute, we offer the best academic preparation that steadily builds concepts from the intermediate to advanced levels.</string>
+    <string name="Welcome_text">Sehgal Institute is the one stop solution for all your IELTS, PTE, Spoken English preparation. It has positively affected the career outcomes of innumerable aspirants and our ongoing relationship with our students has been a gratifying story of unparalleled success.</string>
+    <string name="hist_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly believable.</string>
+    <string name="our_mission_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly believable.</string>
+    <string name="phone_number_text">Contact No\n9855483978\n9914373978</string>
+    <string name="title_activity_fetchall_students">fetchallStudents</string>
+    <string name="title_activity_fetchcsmadmin">fetchcsmadmin</string>
+    <string name="title_activity_studentpaymrntinfo">studentpaymrntinfo</string>
+    <string name="title_activity_contactus">contactus</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
