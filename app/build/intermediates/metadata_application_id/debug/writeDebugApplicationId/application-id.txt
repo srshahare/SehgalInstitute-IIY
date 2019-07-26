@@ -1,1 +1,1 @@
-com.example.instituteapp
+com.iiysoftware.instituteapp

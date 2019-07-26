@@ -10,6 +10,14 @@
             android:icon="@drawable/ic_gallery"
             android:title="Gallery" />
         <item
+            android:id="@+id/nav_holidays"
+            android:icon="@drawable/ic_card_travel_black_24dp"
+            android:title="Holidays" />
+        <item
+            android:id="@+id/nav_booking"
+            android:icon="@drawable/ic_class_black_24dp"
+            android:title="Exam Booking" />
+        <item
             android:id="@+id/nav_about"
             android:icon="@drawable/ic_aboutus"
             android:title="About Us" />
@@ -46,6 +54,10 @@
                     android:id="@+id/nav_logout"
                     android:icon="@drawable/ic_login"
                     android:title="Log Out" />
+                <item
+                    android:id="@+id/nav_my_att"
+                    android:icon="@drawable/abtus"
+                    android:title="My Attendance" />
                 <item
                     android:id="@+id/nav_payment"
                     android:icon="@drawable/ic_payment"

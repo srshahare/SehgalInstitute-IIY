@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="176dp"
-    android:background="#190F4E"
+    android:layout_height="wrap_content"
     android:gravity="bottom"
     android:orientation="vertical"
     android:padding="16dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <ImageView
-        android:layout_width="249dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="5dp"
+        android:layout_marginTop="8dp"
         android:src="@drawable/logo" />
 
     <TextView
@@ -19,6 +18,6 @@
         android:layout_height="wrap_content"
         android:paddingTop="8dp"
         android:text="sehgalinstitute2012@gmail.com"
-        android:textColor="#FFFFFF" />
+        android:textColor="@color/cardview_dark_background" />
 
 </LinearLayout>

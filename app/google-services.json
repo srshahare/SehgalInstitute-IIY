@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:884074252260:android:b90e64bdfcd589e0",
         "android_client_info": {
-          "package_name": "com.example.instituteapp"
+          "package_name": "com.iiysoftware.instituteapp"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "884074252260-rf9cpaj225ltsapumnmdjotehk6ab3lm.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.instituteapp",
+            "package_name": "com.iiysoftware.instituteapp",
             "certificate_hash": "d50fdd6b57982c7bd7504ebeea69a1aef1877f54"
           }
         },

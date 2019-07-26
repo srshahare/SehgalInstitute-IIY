@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.instituteapp"
+    package="com.iiysoftware.instituteapp"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -20,87 +20,92 @@
         android:name="android.support.multidex.MultiDexApplication"
         android:allowBackup="true"
         android:debuggable="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/lo"
         android:label="Sehgal Institute"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/lo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.instituteapp.AllStudentAtt" />
-        <activity android:name="com.example.instituteapp.Listofattendence" />
-        <activity android:name="com.example.instituteapp.allAttendenceList" />
+        <activity android:name="com.iiysoftware.instituteapp.MyAttendence" />
+        <activity android:name="com.iiysoftware.instituteapp.ExamBooking" />
+        <activity android:name="com.iiysoftware.instituteapp.Holidays" />
+        <activity android:name="com.iiysoftware.instituteapp.AllStudentAtt" />
+        <activity android:name="com.iiysoftware.instituteapp.Listofattendence" />
+        <activity android:name="com.iiysoftware.instituteapp.allAttendenceList" />
         <activity
-            android:name="com.example.instituteapp.contactus"
+            android:name="com.iiysoftware.instituteapp.contactus"
             android:label="@string/title_activity_contactus"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.instituteapp.studentpaymrntinfo"
+            android:name="com.iiysoftware.instituteapp.studentpaymrntinfo"
             android:label="@string/title_activity_studentpaymrntinfo"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.instituteapp.fetchcsmadmin"
+            android:name="com.iiysoftware.instituteapp.fetchcsmadmin"
             android:label="@string/title_activity_fetchcsmadmin"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.instituteapp.fetchallStudents"
+            android:name="com.iiysoftware.instituteapp.fetchallStudents"
             android:label="@string/title_activity_fetchall_students"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.example.instituteapp.fullimageactivity" />
+        <activity android:name="com.iiysoftware.instituteapp.fullimageactivity" />
         <activity
-            android:name="com.example.instituteapp.gallerylayout"
+            android:name="com.iiysoftware.instituteapp.gallerylayout"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.instituteapp.pteact"
+            android:name="com.iiysoftware.instituteapp.pteact"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.instituteapp.cdielts"
+            android:name="com.iiysoftware.instituteapp.cdielts"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.instituteapp.spknenglish"
+            android:name="com.iiysoftware.instituteapp.spknenglish"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.instituteapp.ieltsact"
+            android:name="com.iiysoftware.instituteapp.ieltsact"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.instituteapp.aboutusact"
+            android:name="com.iiysoftware.instituteapp.aboutusact"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.instituteapp.ReadRequest"
+            android:name="com.iiysoftware.instituteapp.ReadRequest"
             android:label="@string/title_activity_read_request"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.instituteapp.request"
+            android:name="com.iiysoftware.instituteapp.request"
             android:label="@string/title_activity_request"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.instituteapp.fetchNotes"
+            android:name="com.iiysoftware.instituteapp.fetchNotes"
             android:label="@string/title_activity_fetch_notes"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.instituteapp.PremiumActivity"
+            android:name="com.iiysoftware.instituteapp.PremiumActivity"
             android:label="@string/title_activity_premium"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.instituteapp.attendanceMan"
+            android:name="com.iiysoftware.instituteapp.attendanceMan"
             android:label="@string/title_activity_attendance_man"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.instituteapp.payment"
+            android:name="com.iiysoftware.instituteapp.payment"
             android:label="@string/title_activity_payment"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.instituteapp.deleteStudent"
+            android:name="com.iiysoftware.instituteapp.deleteStudent"
             android:label="@string/title_activity_delete_student"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.instituteapp.addStudent"
+            android:name="com.iiysoftware.instituteapp.addStudent"
             android:label="@string/title_activity_add_student"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.example.instituteapp.manage" />
-        <activity android:name="com.example.instituteapp.studentlogin" />
-        <activity android:name="com.example.instituteapp.twobutton" />
-        <activity android:name="com.example.instituteapp.MainActivity" />
+        <activity android:name="com.iiysoftware.instituteapp.manage" />
+        <activity android:name="com.iiysoftware.instituteapp.studentlogin" />
+        <activity android:name="com.iiysoftware.instituteapp.twobutton" />
         <activity
-            android:name="com.example.instituteapp.mainlayout"
+            android:name="com.iiysoftware.instituteapp.mainlayout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.iiysoftware.instituteapp.MainActivity"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -168,7 +173,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.example.instituteapp.firebaseinitprovider"
+            android:authorities="com.iiysoftware.instituteapp.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 
